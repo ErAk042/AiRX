@@ -1,5 +1,6 @@
 # AiRX
 AiRX is a modularized fully-analog superheterodyne AM radio receiver for the aviation band (117-140MHz). The system consists of an input filter + LNA, a LNA + mixer stege for converting the band to 7-30MHz range, a Xtal oscillator at 110MHz as the first LO, and a LA1267 based AM radio to demodulate the signal with an additional LM386 amp for driving speakers.
+
 ![Block diagram of the overall system](images/AiRX_block_diagram(1).png)
 
 ## Input Stage
