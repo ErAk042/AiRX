@@ -4,7 +4,7 @@ AiRX is a modularized fully-analog superheterodyne AM radio receiver for the avi
 ![Block diagram of the overall system](images/AiRX_block_diagram(1).png)
 
 ## Input Stage
-The input stage is a 9th order bandpass filter (117-40MHz passband) made using high-q aircore inductors. Right after the filter, there is a LNA block made using the BFP196W RF transistor. Bias network is made using a BC807 PNP transistor. The circuit aims to provide a 15mA current flow over the RF transistor. The overall gain of the LNA block here is around 15dB. 
+The input stage is a 9th order bandpass filter (117-40MHz passband) made using high-q aircore inductors. Right after the filter, there is a LNA block made using the BFP196W RF transistor. Bias network is made using a BC807 PNP transistor. The circuit aims to provide a 15mA current flow over the RF transistor. The overall gain of the LNA block here is around 15dB. The final PCB ins enclosed in a phosphorus-bronze enclosure and the power supply cable is filtered by going through a ferride bead to minimize the RF interference by nearby electronics.
 
 
 ## 110MHz Oscillator
